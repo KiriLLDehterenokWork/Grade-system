@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: grades_postgres
+    environment:
+      POSTGRES_DB: grades_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
