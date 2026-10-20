@@ -1,10 +1,9 @@
-/* Подключаем современный мягкий шрифт Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --primary-color: #4f46e5;       /* Благородный индиго вместо едкого синего */
+    --primary-color: #4f46e5;
     --primary-hover: #4338ca;
-    --bg-body: #f8fafc;             /* Мягкий светлый фон */
+    --bg-body: #f8fafc;
     --card-bg: #ffffff;
     --text-main: #0f172a;
     --text-muted: #64748b;
@@ -20,7 +19,6 @@ body {
     color: var(--text-main);
 }
 
-/* Мягкие карточки со скруглением */
 .card {
     border: 1px solid var(--border-color) !important;
     border-radius: var(--radius-lg) !important;
@@ -29,7 +27,6 @@ body {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Сглаженные поля ввода */
 .form-control, .form-select {
     border-radius: var(--radius-sm) !important;
     border: 1px solid var(--border-color) !important;
@@ -41,7 +38,6 @@ body {
     box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15) !important;
 }
 
-/* Красивые скругленные кнопки */
 .btn {
     border-radius: var(--radius-sm) !important;
     font-weight: 500 !important;
@@ -60,7 +56,6 @@ body {
     transform: translateY(-1px);
 }
 
-/* Аккуратные таблицы без тяжелых полос */
 .table {
     border-color: var(--border-color) !important;
 }
@@ -73,7 +68,6 @@ body {
     font-weight: 600;
 }
 
-/* Бейджи оценок */
 .badge {
     border-radius: 6px !important;
     font-weight: 600 !important;

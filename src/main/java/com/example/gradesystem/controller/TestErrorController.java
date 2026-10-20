@@ -8,7 +8,6 @@ public class TestErrorController {
 
     @GetMapping("/checkError")
     public String triggerError() {
-        // Искусственно выбрасываем ошибку, чтобы её поймал GlobalExceptionHandler
         throw new RuntimeException("Это тестовая ошибка 500 для демонстрации работы @ControllerAdvice!");
     }
 }
